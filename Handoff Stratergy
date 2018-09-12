@@ -1,1 +1,19 @@
+A handoff refers to the process of transferring an active call or data session from one cell in a cellular network to another or from one channel in a cell to another. A well-implemented handoff is important for delivering uninterrupted service to a caller or data session user.
+Handoffs may be classified into two types:
 
+    Hard Handoff: Characterized by an actual break in the connection while switching from one cell or base station to another. The switch takes place so quickly that it can hardly be noticed by the user. Because only one channel is needed to serve a system designed for hard handoffs, it is the more affordable option. It is also sufficient for services that can allow slight delays, such as mobile broadband Internet.
+    Soft Handoff: Entails two connections to the cell phone from two different base stations. This ensures that no break ensues during the handoff. Naturally, it is more costly than a hard handoff.
+  
+  Concept:
+    Cellular networks are composed of cells, each of which is capable of providing telecommunications services to subscribers roaming within them. Each cell can only serve up to a certain area and number of subscribers. Thus, when any of these two limits is reached, a handoff ensues.
+
+For instance, if a subscriber moves out of the coverage area of a particular cell while entering another, a handoff takes place between the two cells. The cell that served the call prior to the handoff is relieved of its duties, which are then transferred to the second cell. A handoff may also be triggered when the number of subscribers using a particular cell has already reached the cell’s maximum limit (capacity).
+
+Such a handoff is possible because the reach of the cell sites serving these cells can sometimes overlap. Thus, if a subscriber is within an overlapping area, the network may opt to transfer one subscriber's call to the cell involved in the overlap.
+
+Sometimes a handoff can take place even if no limit is breached. For example, suppose that a subscriber initially inside the jurisdiction of a large cell (served by an umbrella-type cell site) enters the jurisdiction of a smaller cell (one served by a micro cell). The subscriber can be handed off to the smaller cell in order to free up capacity on the larger one. 
+
+
+site reference:
+https://www.techopedia.com/definition/16851/handoff
+    
